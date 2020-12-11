@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "gulp",
-    "test": "gulp test"
+    "test": "gulp test",
+    "preinstall": "npx npm-force-resolutions"
   },
   "keywords": [
     "neo4j",
@@ -29,7 +30,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "d3": "^4.2.1"
+    "d3": "^4.2.1",
+    "vinyl": "^1.2.0"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.7",
@@ -40,7 +45,7 @@
     "del": "^2.2.1",
     "ecstatic": "^2.1.0",
     "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-cache": "^0.4.5",
     "gulp-concat": "^2.6.0",
@@ -56,10 +61,11 @@
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-ruby-sass": "^2.1.0",
+    "gulp-sass": "^4.1.0",
     "gulp-uglify": "^2.0.0",
     "gulp-uncache": "^0.4.0-beta1",
     "gulp-util": "^3.0.7",
+    "gulp4-run-sequence": "^1.0.0",
     "http-server": "^0.9.0",
     "jshint": "^2.9.3",
     "karma": "^0.13.22",
@@ -76,11 +82,10 @@
     "phantomjs": "^2.1.1",
     "proxyquire": "^1.7.9 ",
     "proxyquireify": "^3.2.0",
-    "run-sequence": "^1.2.2",
     "tiny-lr": "^0.2.1",
     "twemoji": "^2.2.0",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
     "vinyl-transform": "^1.0.0",
     "wallabify": "^0.0.14",
     "watchify": "^3.7.0",

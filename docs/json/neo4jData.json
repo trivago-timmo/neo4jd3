@@ -5,7 +5,7 @@
             "graph": {
                 "nodes": [{
                     "id": "1",
-                    "labels": ["User"],
+                    "labels": ["Talent"],
                     "properties": {
                         "userId": "eisman"
                     }
@@ -50,7 +50,7 @@
                     }
                 }, {
                     "id": "8",
-                    "labels": ["Project"],
+                    "labels": ["Department"],
                     "properties": {
                         "name": "neo4jd3",
                         "title": "neo4jd3.js",
@@ -77,7 +77,7 @@
                     }
                 }, {
                     "id": "12",
-                    "labels": ["Project"],
+                    "labels": ["Department"],
                     "properties": {
                         "name": "neo4j",
                         "title": "Neo4j",
@@ -86,7 +86,7 @@
                     }
                 }, {
                     "id": "13",
-                    "labels": ["Project"],
+                    "labels": ["Department"],
                     "properties": {
                         "name": "d3",
                         "title": "D3.js",
@@ -139,7 +139,7 @@
                             "BirthDate": "birthday-cake",
                             "Password": "asterisk",
                             "Phone": "phone",
-                            "User": "user"
+                            "Talent": "user"
                         },
                         "deafult": "{}"
                     }

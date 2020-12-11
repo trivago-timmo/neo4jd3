@@ -19,4 +19,6 @@ gulp.task('watch:test', function() {
     gulp.watch(['src/main/scripts/**/*.js', 'src/test/scripts/**/*.js'], ['test:client']);
 });
 
-gulp.task('test', ['test:client']);
+gulp.task('test', gulp.series('test:client', function(done) {
+    done();
+}));
